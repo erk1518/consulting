@@ -1,0 +1,90 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(20, 19, 16);
+  color: rgb(189, 160, 74);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 4px solid rgb(189, 160, 74);
+    background-color: rgb(20, 19, 16);
+}
+
+.header-logo{
+    display: flex;
+    /* outline: 2px solid yellow; */
+    justify-content: space-between;
+}
+
+.logo-img{
+    /* outline: 2px solid purple; */
+    height: 70px;
+}
+
+.titleAndLinks{
+    /* outline: 4px solid khaki; */
+    display: flex;
+    flex-direction: column;
+}
+
+.companyName{
+    /* outline: 4px solid lime; */
+    font-size: 52px;
+    /* font-weight: 600; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header-links{
+    /* outline: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    font-size: x-large;
+    padding: 1%;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(189, 160, 74);
+}
+
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: white;
+    /* font-weight: bold; */
+}  
+
+
+
+/* Services Page */
+.servicesContainer{
+    outline: 2px solid lime;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.serviceCard{
+    background-color: white;
+    width: 40%;
+    height: 200px;
+}
+
+.servicesText{
+    width: 50%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    outline: 2px solid yellow;
+    font-size: xx-large;
+    
+}
+
