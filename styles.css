@@ -97,7 +97,69 @@ main{
     flex: 1; /* This makes the main content area grow and fill the space between the header and footer */
 }
 
+/* front page of website */
+.bodyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 2px solid red; */
+}
 
+.bodyIntro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 2px solid green; */
+    width: 70%;
+    font-size: x-large;
+    text-align: center;
+    padding: 5%;
+}
+
+.bodyTraining{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(189, 160, 74);
+    /* outline: 2px solid green; */
+    width: 70%;
+    font-size: x-large;
+    text-align: center;
+    padding: 5%;
+}
+
+.bodyConsulting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 2px solid green; */
+    border-top: 2px solid rgb(189, 160, 74);
+    width: 70%;
+    font-size: x-large;
+    text-align: center;
+    padding: 5%;
+}
+
+.learnButton{
+    background-color: black;
+    color: rgb(189, 160, 74);
+    padding: 20px;
+    border-radius: 30px;
+    font-size: large;
+    border: 2px solid rgb(189, 160, 74);
+    font-weight: bold;
+}
+.learnButton:hover{
+    background-color: rgb(189, 160, 74);
+    color: white;
+    cursor: pointer;
+}
+
+/* footer secition */
 footer{
     margin: 0;
     display: flex;
