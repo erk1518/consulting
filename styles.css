@@ -205,3 +205,48 @@ footer a:hover{
     font-size: larger;
     gap: 35px;
 }
+
+/* about page */
+.aboutContainer{
+    /* outline: 3px solid yellow;
+    display: flex;
+    flex-direction: column;
+    
+    width: 70%;
+    align-items: center;
+    justify-content: center; */
+    
+    /* text-align: center; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 2px solid green; */
+    width: 70%;
+    font-size: x-large;
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* contact page */
+.container
+{
+    display: flex;
+    /* outline: 2px solid green; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* width: 70%; */
+}
+
+.formContainer{
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    padding: 20px;
+}
