@@ -71,6 +71,7 @@ a:hover{
     /* outline: 8px solid blue; */
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -78,21 +79,49 @@ a:hover{
     /* outline: 2px solid lime; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 4%;
+    justify-content: center;
+    
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    /* padding: 4%; */
+    /* width: 500px; */
+    
     
 }
 
 .serviceCard{
     display: flex;
     flex-direction: column;
+    /* outline: 2px solid white; */
     /* background-color: white; */
     width: 40%;
     justify-content: center;
     align-items: center;
     font-size: xx-large;
-    
+    /* padding-left: 4%; */
+    /* padding-right: 4%; */
     /* height: 200px; */
+}
+
+.serviceCardTraining{
+    display: flex;
+    flex-direction: column;
+    /* outline: 2px solid white; */
+    /* background-color: white; */
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    border-right: 2px solid rgb(189, 160, 74);
+    /* padding-left: 4%; */
+    /* padding-right: 4%; */
+    /* height: 200px; */
+}
+
+.serviceCard h3, .serviceCardTraining h3{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+
 }
 
 .servicesText{
@@ -105,7 +134,8 @@ a:hover{
     /* outline: 2px solid yellow; */
     font-size: xx-large;
     text-align: center;
-    
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 main{
