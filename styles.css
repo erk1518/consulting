@@ -229,6 +229,26 @@ footer a:hover{
     padding: 5%;
 }
 
+.aboutUS{
+    /* display: flex; */
+    /* outline: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.aboutBox{
+    display: flex;
+    /* outline: 2px solid yellow; */
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.aboutHeader{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
 
 /* contact page */
 .container
