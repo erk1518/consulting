@@ -234,7 +234,7 @@ footer a:hover{
     /* outline: 2px solid blue; */
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 30px;
 }
 
 .aboutBox{
@@ -280,7 +280,8 @@ footer a:hover{
     font-size: larger;
 }
 #fname:focus, #email:focus{
-    border: 2px solid rgb(189, 160, 74);
+    /* border: 2px solid rgb(189, 160, 74); */
+    border: 2px solid rgb(80, 200, 120);
     outline: none;
 }
 
@@ -310,7 +311,8 @@ label{
     border-radius: 5px;
 }
 #subject:focus{
-    border: 2px solid rgb(189, 160, 74);
+    /* border: 2px solid rgb(189, 160, 74); */
+    border: 2px solid rgb(80, 200, 120);
     outline: none;
 }
 
