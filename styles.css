@@ -67,29 +67,44 @@ a:hover{
 
 
 /* Services Page */
+.services-Body{
+    /* outline: 8px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+
 .servicesContainer{
-    outline: 2px solid lime;
+    /* outline: 2px solid lime; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 4%;
     
 }
 
 .serviceCard{
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
     width: 40%;
-    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    
+    /* height: 200px; */
 }
 
 .servicesText{
-    width: 50%;
+    /* width: 50%; */
     padding: 4%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    outline: 2px solid yellow;
+    align-items: center;
+    /* outline: 2px solid yellow; */
     font-size: xx-large;
+    text-align: center;
     
 }
 
