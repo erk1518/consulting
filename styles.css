@@ -9,6 +9,15 @@ body {
   margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6{
+    
+    font-weight: 500;
+}
+
+label{
+    font-weight: 100;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -103,6 +112,21 @@ a:hover{
     /* height: 200px; */
 }
 
+.serviceCardSecurity{
+    display: flex;
+    flex-direction: column;
+    /* outline: 2px solid white; */
+    /* background-color: white; */
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    border-left: 2px solid rgb(189, 160, 74);
+    /* padding-left: 4%; */
+    /* padding-right: 4%; */
+    /* height: 200px; */
+}
+
 .serviceCardTraining{
     display: flex;
     flex-direction: column;
@@ -118,7 +142,7 @@ a:hover{
     /* height: 200px; */
 }
 
-.serviceCard h3, .serviceCardTraining h3{
+.serviceCard h3, .serviceCardTraining h3, .serviceCardSecurity h3{
     text-decoration: underline;
     text-underline-offset: 8px;
 
