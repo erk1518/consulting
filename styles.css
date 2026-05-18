@@ -112,6 +112,11 @@ a:hover{
     /* height: 200px; */
 }
 
+.servicesFont{
+    font-size: smaller;
+    padding: 20px;
+}
+
 .serviceCardSecurity{
     display: flex;
     flex-direction: column;
@@ -146,6 +151,12 @@ a:hover{
     text-decoration: underline;
     text-underline-offset: 8px;
 
+}
+
+.subList
+{
+    font-size: 27px;
+    /* outline: 2px solid blue; */
 }
 
 .servicesText{
