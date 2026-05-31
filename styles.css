@@ -252,7 +252,7 @@ footer{
     margin: 0;
     display: flex;
     background-color: rgb(189, 160, 74);
-    height: 250px;
+    /* height: 250px; */
     color: black;
     /* outline: 3px solid greenyellow; */
     justify-content: center;
@@ -262,6 +262,11 @@ footer{
     gap: 10%;
     font-weight:500;
 }
+.footerImg{
+    width: 200px;
+    height: 200px;
+}
+
 footer a{
     color: black;
 }
@@ -455,6 +460,26 @@ label{
 
 
 /* Responsive */
+ /* footer responsive */
+  @media (max-width: 1100px) {
+    .footerImg{
+        width: 180px;
+        height: 180px;
+    }
+
+    .leftInfo{
+        gap: 25px;
+    font-size: large;
+    }
+
+    .siteLinks{
+        font-size: large;
+        gap: 30px;
+    }
+
+  }
+
+
 @media (max-width: 950px) {
   .companyName{
     font-size: 40px;
@@ -463,6 +488,109 @@ label{
   .header-links a{
     font-size: large;
   }
+
+  .bodyIntro h2{
+    font-size: 27px;
+  }
+
+  .bodyIntro p{
+    font-size: 22px;
+  }
+
+  .logo-img{
+    height: 120px;
+  }
+
+  .bodyTraining h2{
+    font-size: 27px;
+  }
+
+  .bodyTraining p{
+    font-size: 22px;
+  }
+
+  .bodyConsulting h2{
+    font-size: 27px;
+  }
+
+  .bodyConsulting p{
+    font-size: 22px;
+  }
+
+  li{
+    font-size: 22px;
+  }
+
+  .footerImg{
+    width: 150px;
+    height: 150px;
+  }
+
+    .leftInfo{
+        gap: 20px;
+    font-size: large;
+    }
+
+    .siteLinks{
+        font-size: medium;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 850px){
+     .footerImg{
+    width: 125px;
+    height: 125px;
+  }
+
+    .leftInfo{
+        gap: 18px;
+    font-size: large;
+    }
+
+    .siteLinks{
+        font-size: medium;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 830px){
+footer{
+    flex-direction: column;
+}
+
+.leftInfo{
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+
+.siteLinks{
+    /* margin-top: 50px; */
+    padding: 50px;
+}
+
+.footerImg{
+    display: none;
+}
+
+.leftInfo{
+    border-left: none;
+}
+
+     .footerImg{
+    width: 125px;
+    height: 125px;
+  }
+
+    .leftInfo{
+        gap: 18px;
+    font-size: larger;
+    }
+
+    .siteLinks{
+        font-size: large;
+        gap: 20px;
+    }
 }
 
 @media (max-width: 750px) {
@@ -473,6 +601,38 @@ label{
   .header-links a{
     font-size: large;
   }
+
+    .bodyIntro h2{
+    font-size: 24px;
+  }
+
+  .bodyIntro p{
+    font-size: 20px;
+  }
+
+  .bodyTraining h2{
+    font-size: 24px;
+  }
+
+  .bodyTraining p{
+    font-size: 20px;
+  }
+
+  .bodyConsulting h2{
+    font-size: 24px;
+  }
+
+  .bodyConsulting p{
+    font-size: 20px;
+  }
+
+   li{
+    font-size: 20px;
+  }
+
+  .logo-img{
+    height: 105px;
+  }
 }
 
 @media (max-width: 545px) {
@@ -482,10 +642,44 @@ label{
 
   .header-links a{
     font-size: medium;
+    
   }
 
   .logo-img{
     height: 90px;
+  }
+
+    .bodyIntro h2{
+    font-size: 24px;
+  }
+
+  .bodyIntro p{
+    font-size: 20px;
+  }
+
+  .bodyTraining h2{
+    font-size: 24px;
+  }
+
+  .bodyTraining p{
+    font-size: 20px;
+  }
+
+  .bodyConsulting h2{
+    font-size: 24px;
+  }
+
+  .bodyConsulting p{
+    font-size: 20px;
+  }
+
+  .learnButton{
+    padding: 18px;
+    font-size: medium;
+  }
+
+   li{
+    font-size: 20px;
   }
 }
 
@@ -501,6 +695,57 @@ label{
   .logo-img{
     height: 90px;
   }
+
+    .bodyIntro h2{
+    font-size: 18px;
+  }
+
+  .bodyIntro p{
+    font-size: 18px;
+    text-align: start;
+  }
+
+  .bodyTraining h2{
+    font-size: 18px;
+  }
+
+  .bodyTraining p{
+    font-size: 18px;
+    text-align: start;
+  }
+
+  .bodyConsulting h2{
+    font-size: 18px;
+  }
+
+  .bodyConsulting p{
+    font-size: 18px;
+    text-align: start;
+  }
+
+  .learnButton{
+    padding: 16px;
+    font-size: medium;
+  }
+
+   li{
+    font-size: 18px;
+  }
+
+   .leftInfo{
+        gap: 18px;
+        font-size: large;
+        
+    }
+
+
+
+    .siteLinks{
+        font-size: medium;
+        gap: 20px;
+        padding: 30px;
+    }
+  
 }
 
 @media (max-width: 355px) {
@@ -514,5 +759,41 @@ label{
 
   .logo-img{
     height: 70px;
+  }
+
+    .bodyIntro h2{
+    font-size: 16px;
+  }
+
+  .bodyIntro p{
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .bodyTraining h2{
+    font-size: 16px;
+  }
+
+  .bodyTraining p{
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .bodyConsulting h2{
+    font-size: 16px;
+  }
+
+  .bodyConsulting p{
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .learnButton{
+    padding: 16px;
+    font-size: medium;
+  }
+
+   li{
+    font-size: 16px;
   }
 }
