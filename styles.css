@@ -201,6 +201,11 @@ main{
     padding: 5%;
 }
 
+li{
+    /* outline: 2px solid yellow; */
+    margin: 10px 0;
+}
+
 .bodyTraining{
     display: flex;
     flex-direction: column;
@@ -447,3 +452,67 @@ label{
     margin-left: -50%;
     text-align: right;
 } */
+
+
+/* Responsive */
+@media (max-width: 950px) {
+  .companyName{
+    font-size: 40px;
+  }
+
+  .header-links a{
+    font-size: large;
+  }
+}
+
+@media (max-width: 750px) {
+  .companyName{
+    font-size: 30px;
+  }
+
+  .header-links a{
+    font-size: large;
+  }
+}
+
+@media (max-width: 545px) {
+  .companyName{
+    font-size: 25px;
+  }
+
+  .header-links a{
+    font-size: medium;
+  }
+
+  .logo-img{
+    height: 90px;
+  }
+}
+
+@media (max-width: 445px) {
+  .companyName{
+    font-size: 20px;
+  }
+
+  .header-links a{
+    font-size: medium;
+  }
+
+  .logo-img{
+    height: 90px;
+  }
+}
+
+@media (max-width: 355px) {
+  .companyName{
+    font-size: 16px;
+  }
+
+  .header-links a{
+    font-size: small;
+  }
+
+  .logo-img{
+    height: 70px;
+  }
+}
