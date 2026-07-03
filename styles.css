@@ -89,6 +89,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* align-items: center; */
     width: 90%;
     margin: auto;
     
@@ -322,6 +323,12 @@ footer a:hover{
     padding: 5%;
 }
 
+.aboutLogoPic{
+  /* outline: 2px solid blue; */
+  width: 500px;
+  height: auto;
+}
+
 .aboutUS{
     /* display: flex; */
     /* outline: 2px solid blue; */
@@ -393,15 +400,16 @@ label{
 
 #subject{
 
-    width: 680px;
-    max-width: 680px;
-    height: 200px;
+    width: 20%;
+    /* max-width: 680px; */
+    /* height: 200px; */
     min-height: 50px;
     min-width: 680px;
     /* max-width: 1700px; */
     font-size: x-large;
     padding: 10px;
     border-radius: 5px;
+    margin: auto;
 }
 #subject:focus{
     /* border: 2px solid rgb(189, 160, 74); */
@@ -433,7 +441,19 @@ label{
 
 .contactHeader{
     text-align: center;
+    /* outline: 2px solid blue; */
+    width: 60%;
+    margin: auto;
+    padding: 15px;
 }
+
+/* .messageArea{
+  border: 8px solid blue;
+  margin: auto;
+  
+} */
+  
+
 
 /* .contactHeader{
     position: relative;
@@ -460,6 +480,80 @@ label{
 
 
 /* Responsive */
+/* about us page */
+ @media (max-width: 1650px) {
+    .aboutLogoPic{
+      width: 420px;
+      height: 420px;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    .aboutLogoPic{
+      width: 400px;
+      height: 400px;
+      margin: auto;
+    }
+
+    .aboutBox{
+      flex-direction: column-reverse;
+    }
+  }
+
+   @media (max-width: 900px) {
+    .contactHeader{
+      font-size: larger;
+    }
+  }
+
+  @media (max-width: 500px) 
+  {
+    .aboutLogoPic{
+      width: 320px;
+      height: 320px;
+      margin: auto;
+    }
+    .aboutHeader{
+      font-size: larger;
+    }
+
+    .aboutContainer
+    {
+      font-size: large;
+    }
+
+    /* .aboutUS p{
+      outline: 2px solid yellow;
+      width: 80%;
+    } */
+  }
+
+   @media (max-width: 440px) 
+  {
+    .aboutLogoPic{
+      width: 250px;
+      height: auto;
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 400px) 
+  {
+    .aboutPara{
+      /* outline: 2px solid yellow; */
+      width: 70%;
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .contactHeader{
+      font-size: large;
+    }
+  }
+
+
+
  /* footer responsive */
   @media (max-width: 1100px) {
     .footerImg{
@@ -643,6 +737,10 @@ footer{
   .header-links a{
     font-size: medium;
     
+  }
+
+  .header-links{
+    padding: 20px;
   }
 
   .logo-img{
