@@ -342,6 +342,7 @@ footer a:hover{
     /* outline: 2px solid yellow; */
     justify-content: space-between;
     padding: 15px;
+    width: 100%;
 }
 
 .aboutHeader{
@@ -601,14 +602,18 @@ label{
   {
     .aboutPara{
       /* outline: 2px solid yellow; */
-      width: 70%;
-      margin: auto;
+      /* width: 70%; */
+      /* margin: auto; */
     }
   }
 
   @media (max-width: 400px) {
     .contactHeader{
       font-size: large;
+    }
+
+    .aboutfounder{
+      width: 300px;
     }
   }
 
