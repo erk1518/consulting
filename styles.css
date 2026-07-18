@@ -383,7 +383,8 @@ footer a:hover{
 }
 #fname:focus, #email:focus{
     /* border: 2px solid rgb(189, 160, 74); */
-    border: 2px solid rgb(80, 200, 120);
+    /* border: 2px solid rgb(80, 200, 120); */
+    border: 2px solid rgb(189, 160, 74);
     outline: none;
 }
 
@@ -418,7 +419,8 @@ label{
 }
 #subject:focus{
     /* border: 2px solid rgb(189, 160, 74); */
-    border: 2px solid rgb(80, 200, 120);
+    /* border: 2px solid rgb(80, 200, 120); */
+    border: 2px solid rgb(189, 160, 74);
     outline: none;
 }
 
@@ -511,6 +513,23 @@ label{
    }
    #subject{
     width: 500px;
+   }
+
+   /* services page */
+   .servicesFont{
+    font-size: large;
+   }
+
+   .headerService{
+    font-size: x-large;
+   }
+
+   .serviceCard, .servicesContainer{
+    /* border: 2px solid yellow; */
+    /* font-size: small; */
+   }
+   li{
+    font-size: large;
    }
   }
 
@@ -680,6 +699,10 @@ label{
     font-size: 22px;
   }
 
+  .subList{
+    font-size: small;
+  }
+
   .footerImg{
     width: 150px;
     height: 150px;
@@ -694,6 +717,18 @@ label{
         font-size: medium;
         gap: 25px;
     }
+
+    /* service page  */
+    .serviceHeader{
+      /* border: 2px solid yellow; */
+      font-size: xx-large;
+    }
+
+    .servicePara{
+      font-size: x-large;
+    }
+
+    
 }
 
 @media (max-width: 850px){
@@ -792,6 +827,20 @@ footer{
   .logo-img{
     height: 105px;
   }
+
+  .servicesContainer{
+      flex-direction: column;
+      align-items: center;
+    }
+
+  .serviceCardTraining, .serviceCard, .serviceCardSecurity
+  {
+    width: 80%;
+    border: none;
+  }
+  .serviceCardTraining, .serviceCard, .serviceCardSecurity{
+    border-bottom: 2px solid rgb(189, 160, 74);
+  }
 }
 
 @media (max-width: 545px) {
@@ -844,6 +893,16 @@ footer{
    li{
     font-size: 20px;
   }
+
+    /* service page  */
+    .serviceHeader{
+      /* border: 2px solid yellow; */
+      font-size: x-large;
+    }
+
+    .servicePara{
+      font-size: large;
+    }
 }
 
 @media (max-width: 445px) {
