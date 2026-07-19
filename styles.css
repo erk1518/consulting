@@ -198,8 +198,9 @@ main{
     /* outline: 2px solid green; */
     width: 70%;
     font-size: x-large;
-    text-align: center;
+    text-align: start;
     padding: 5%;
+    
 }
 
 li{
@@ -216,7 +217,7 @@ li{
     /* outline: 2px solid green; */
     width: 70%;
     font-size: x-large;
-    text-align: center;
+    text-align: start;
     padding: 5%;
 }
 
@@ -229,7 +230,7 @@ li{
     border-top: 2px solid rgb(189, 160, 74);
     width: 70%;
     font-size: x-large;
-    text-align: center;
+    text-align: start;
     padding: 5%;
 }
 
@@ -241,7 +242,10 @@ li{
     font-size: large;
     border: 2px solid rgb(189, 160, 74);
     font-weight: bold;
+    margin-top: 20px;
+    /* margin-right: 550px; */
 }
+
 .learnButton:hover{
     background-color: rgb(189, 160, 74);
     color: rgb(20, 19, 16);
@@ -488,6 +492,12 @@ label{
       width: 420px;
       height: 420px;
     }
+
+    /* .servList li{
+      font-size: large;
+      margin: none;
+      padding: none;
+    } */
   }
 
   @media (max-width: 1250px) {
@@ -499,6 +509,11 @@ label{
 
     .aboutBox{
       flex-direction: column-reverse;
+    }
+
+    .homeList li{
+      /* border: 2px solid greenyellow; */
+      font-size: x-large;
     }
 
 
@@ -522,6 +537,10 @@ label{
 
    .headerService{
     font-size: x-large;
+   }
+
+   .servicesText{
+    font-size: large;
    }
 
    .serviceCard, .servicesContainer{
@@ -554,6 +573,10 @@ label{
       font-size: large;
     }
 
+    .homeList li{
+      /* border: 2px solid greenyellow; */
+      font-size: large;
+    }
     
   }
 
@@ -728,7 +751,9 @@ label{
       font-size: x-large;
     }
 
-    
+    .servicesText li{
+    font-size: large;
+   }
 }
 
 @media (max-width: 850px){
@@ -831,6 +856,10 @@ footer{
   .servicesContainer{
       flex-direction: column;
       align-items: center;
+    }
+
+    .servicesText{
+      text-align: start;
     }
 
   .serviceCardTraining, .serviceCard, .serviceCardSecurity
