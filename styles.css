@@ -75,6 +75,8 @@ a:hover{
 
 
 
+
+
 /* Services Page */
 .services-Body{
     /* outline: 8px solid blue; */
@@ -329,8 +331,16 @@ footer a:hover{
 
 .aboutLogoPic{
   /* outline: 2px solid blue; */
-  width: 500px;
+  /* width: 500px; */
+  /* height: auto; */
+
+  /* width: 700px; 
+  height: 500px; 
+  object-fit: contain; */
+
+  width: 50%;
   height: auto;
+
 }
 
 .aboutUS{
@@ -488,10 +498,10 @@ label{
 /* Responsive */
 /* about us page */
  @media (max-width: 1650px) {
-    .aboutLogoPic{
+    /* .aboutLogoPic{
       width: 420px;
       height: 420px;
-    }
+    } */
 
     /* .servList li{
       font-size: large;
@@ -501,10 +511,19 @@ label{
   }
 
   @media (max-width: 1250px) {
-    .aboutLogoPic{
-      width: 400px;
-      height: 400px;
+     .aboutLogoPic{
+        width: 70%;
+        height: auto;
+    } 
+
+    .aboutLogoPicc{
+      width: 60%;
+      height: auto;
       margin: auto;
+    }
+
+    ul li{
+      font-size: x-large;
     }
 
     .aboutBox{
@@ -556,6 +575,19 @@ label{
     .contactHeader{
       font-size: larger;
     }
+
+     ul li{
+      font-size: large;
+    }
+
+     .aboutBox p{
+      font-size: large;
+      /* border: 2px solid greenyello */
+    }
+
+    .aboutHeader{
+      font-size: larger;
+    }
   }
 
   @media (max-width: 630px) 
@@ -577,16 +609,26 @@ label{
       /* border: 2px solid greenyellow; */
       font-size: large;
     }
+
+     ul li{
+      font-size: large;
+    }
     
   }
 
   @media (max-width: 500px) 
   {
-    .aboutLogoPic{
-      width: 320px;
-      height: 320px;
+     .aboutLogoPic{
+        width: 80%;
+        height: auto;
+    } 
+
+    .aboutLogoPicc{
+      width: 70%;
+      height: auto;
       margin: auto;
     }
+
     .aboutHeader{
       font-size: larger;
     }
@@ -594,6 +636,11 @@ label{
     .aboutContainer
     {
       font-size: large;
+    }
+
+    .aboutBox p{
+      font-size: large;
+      /* border: 2px solid greenyello */
     }
 
     /* .aboutUS p{
@@ -613,15 +660,19 @@ label{
     label{
       font-size: medium;
     }
+
+     ul li{
+      font-size: large;
+    }
   }
 
    @media (max-width: 440px) 
   {
-    .aboutLogoPic{
-      width: 250px;
-      height: auto;
-      margin: auto;
-    }
+     .aboutLogoPic{
+      
+        width: 90%;
+        height: auto;
+    } 
   }
 
    @media (max-width: 425px) 
